@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
 import Filter from '../components/Filter';
 
 const IndexPage = () => {
