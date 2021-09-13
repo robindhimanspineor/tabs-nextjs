@@ -1,0 +1,46 @@
+.title {
+    text-align: center;
+}
+
+.categoryDirectory {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.categoryItem {
+    height: 250px;
+    width: 500px;
+    border: 1px solid #e1e1e1;
+    ;
+    display: flex;
+}
+
+.categoryItemImage {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subCategoryList {
+    width: 70%;
+}
+
+.categoryHeading {
+    margin: 0%;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.subCategoryItem {
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.subCategoryItem:hover {
+    text-decoration: underline;
+}

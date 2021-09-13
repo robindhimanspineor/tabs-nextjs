@@ -1,0 +1,17 @@
+.filtersContainer {
+    margin-top: 20px;
+    display: flex;
+}
+
+.select {
+    padding: 20px 60px;
+    font-size: medium;
+}
+
+.shopNowButton {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}

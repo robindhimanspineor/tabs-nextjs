@@ -1,0 +1,138 @@
+.subCategoryDirectory {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.productBox {
+    flex-direction: column;
+    flex-grow: 1;
+    height: 480px;
+    padding: 30px 15px;
+    border: 1px solid transparent;
+    border-bottom-color: #ddd;
+    border-right: 1px solid #ddd;
+    position: relative;
+}
+
+.productBox:hover {
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.productImage {
+    flex: 1;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.imageItem {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.productContent {
+    flex: 2;
+}
+
+.productTitle {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 15px;
+    max-height: 50px;
+    min-height: 50px;
+    overflow: hidden;
+    color: #555;
+}
+
+.brandPart {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #333;
+}
+
+.brandPart strong {
+    color: #777;
+}
+
+.productControl {
+    width: 100%;
+    align-self: flex-end;
+    text-align: left;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 0 15px;
+}
+
+.priceGrid {
+    top: 8px;
+    color: #db443a;
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    margin-top: 5px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.avail {
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: capitalize;
+    display: block;
+}
+
+.inStock {
+    color: #32883e;
+}
+
+.outOfStock {
+    color: #db443a;
+}
+
+.enable {
+    cursor: pointer;
+    position: relative;
+    display: block;
+}
+
+.disable {
+    display: block;
+    cursor: not-allowed !important;
+}
+
+.buttonRedSolid {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    font-family: Lato;
+    border: 2px solid #db443a;
+    background: #db443a;
+    border-radius: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+
+.productBox:hover .buttonRedSolid {
+    background-color: #af2c24;
+    border-color: #af2c24;
+}
